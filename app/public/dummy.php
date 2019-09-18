@@ -1,77 +1,26 @@
 [
-    {
-    "patientGUID" : "PAT000001",
-    "firstName" : "Brianne",
-    "lastName" : "Annion",
-    "dob" : "1995-01-15",
-    "sexAtBirth" : "F",
-     patientVisit: {
-       "visitId" : 1001,
-       "visitDescription" : "Regular checkup",
-       "visitDateUtc" : "2019-11-09",
-       patientVisitWaiting : {
-        "priority" : "high"
-       }
-     }
-    },
-    {
-    "patientGUID" : "PAT000002",
-    "firstName" : "John",
-    "lastName" : "Parker",
-    "dob" : "1969-03-12",
-    "sexAtBirth" : "M",
-    patientVisit: {
-      "visitId" : 2001,
-      "visitDescription" : "Regular checkup",
-      "visitDateUtc" : "2019-11-08",
-      patientVisitWaiting : {
-       "priority" : "low"
-      }
-    }
-    },
-    {
-    "patientGUID" : "PAT000003",
-    "firstName" : "Macy",
-    "lastName" : "Claydon",
-    "dob" : "1989",
-    "sexAtBirth" : "F",
-    patientVisit: {
-      "visitId" : 001,
-      "visitDescription" : "Regular checkup",
-      "visitDateUtc" : "2019-11-08",
-      patientVisitWaiting : {
-       "priority" : "medium"
-      }
-    }
-    },
-    {
-    "patientGUID" : "PAT000004",
-    "firstName" : "Arjun",
-    "lastName" : "Adduri",
-    "dob" : "1999-12-20",
-    "sexAtBirth" : "M",
-    patientVisit: {
-      "visitId" : 4001,
-      "visitDescription" : "Regular checkup",
-      "visitDateUtc" : "2019-11-06",
-      patientVisitWaiting : {
-       "priority" : "high"
-      }
-    }
-    },
-    {
-    "patientGUID" : "PAT000005",
-    "firstName" : "Gracy",
-    "lastName" : "Singh",
-    "dob" : "1978-05-18",
-    "sexAtBirth" : "F",
-    patientVisit: {
-      "visitId" : 5001,
-      "visitDescription" : "Regular checkup",
-      "visitDateUtc" : "2019-11-07",
-      patientVisitWaiting : {
-       "priority" : "low"
-      }
-    }
-    }
+  {
+    "patientGuid": "SOME-REALLY-LONG-1234",
+    "firstName": "Sylvia",
+    "lastName": "Hernandez",
+    "dob": "2012-09-01",
+    "sexAtBirth": "F",
+    "priority": "high"
+  },
+  {
+    "patientGuid": "SOME-REALLY-SHORT-5678",
+    "firstName": "Vish",
+    "lastName": "Balasubramanian",
+    "dob": "1950-12-15",
+    "sexAtBirth": "M",
+    "priority": "medium"
+  },
+  {
+    "patientGuid": "SOME-UNIQUE-ABCDE1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "dob": "1997",
+    "sexAtBirth": "M",
+    "priority": "low"
+  }
 ]
